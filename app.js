@@ -98,8 +98,10 @@ app.use(cors({
 
 var mongoose =require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/tvmaze',
+mongoose.connect('mongodb://admin:admin1@ds121413.mlab.com:21413/tvmaze',
 { useNewUrlParser: true });
+// mongoose.connect('mongodb://localhost:27017/tvmaze',
+// { useNewUrlParser: true });
 
 //passport
 var passport = require('passport');
