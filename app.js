@@ -90,9 +90,9 @@ var logger = require('morgan');
 
 var cors= require('cors');
 var app = express();
-console.log("fuck it");
+
 app.use(cors({
-  origin:['http://localhost:4200','http://127.0.0.1:4200','http://localhost:4401','http://127.0.0.1:4401'],
+  origin:['http://localhost:4200','http://127.0.0.1:4200','http://localhost:4401','http://127.0.0.1:4401','http://tv-maze-angular-gui.herokuapp.com'],
   credentials:true
 }));
 
